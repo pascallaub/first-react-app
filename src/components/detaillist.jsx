@@ -8,7 +8,7 @@ function DetailList() {
         { id: 4, thumbnail: "src/assets/nb.png", name: "New Balance 574", price: 100, available: true },
     ];
     return (
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-4 gap-4 p-2">
             {products.map((product) => (
                 <DetailCard key={product.id} products={product} />
             ))}
